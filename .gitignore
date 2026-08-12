@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# local video production files — never committed
+demo-video/
