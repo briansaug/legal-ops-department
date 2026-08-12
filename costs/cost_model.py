@@ -44,9 +44,9 @@ def main():
     by = {r["config"]: r for r in rows}
     gap_ac = by["A"]["annual"] - by["C"]["annual"]
     gap_ab = by["A"]["annual"] - by["B"]["annual"]
-    # contracts/month where the A-vs-C gap equals one paralegal hour
+    # contracts/month where the monthly A-vs-C gap equals one paralegal hour
     per_contract_gap = by["A"]["cost_per_contract"] - by["C"]["cost_per_contract"]
-    breakeven = PARALEGAL_HOUR_USD / per_contract_gap / 12
+    breakeven = PARALEGAL_HOUR_USD / per_contract_gap
 
     md = [
         "# Cost model",
@@ -80,8 +80,8 @@ def main():
         f"on everything (A) and the routed pipeline (C) is about **${gap_ac:.0f}/year**",
         f"at this volume — roughly {gap_ac / PARALEGAL_HOUR_USD:.0f}–{gap_ac / PARALEGAL_HOUR_USD + 1:.0f} hours of a paralegal's loaded time",
         f"(at an assumed ${PARALEGAL_HOUR_USD}/hr, stated here, not measured). You'd need",
-        f"~**{breakeven:,.0f} contracts/month** before that gap equals one paralegal hour",
-        "per month. So the routing design is not a cost play. It's an",
+        f"~**{breakeven:,.0f} contracts/month** before the monthly gap equals one",
+        "paralegal hour. So the routing design is not a cost play. It's an",
         "accuracy-and-routing play — and the eval numbers say that at this volume",
         "the expensive model wins even that: config A had the fewest wrong answers",
         "that self-served (2, vs 10 for the routed config), which is the failure",

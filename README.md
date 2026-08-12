@@ -1,45 +1,193 @@
 # legal-ops-department
 
-> **PRE-REGISTRATION DRAFT.** This README is committed before any model eval
-> has run. Sections marked `[RESULTS PENDING]` are filled in from measured
-> numbers after the runs; §5's "either outcome is a win" paragraph and §6
-> Limitations are written now, so they cannot be read as post-hoc.
+> 🎥 **Demo video:** _2-minute walkthrough — link pending. (Recording is the
+> one remaining manual step; script is written, see §7.)_
 
-## 5. Evaluation (pre-registered framing)
+A working model of a legal operations department built around Claude:
+third-party-paper contract intake triage, with a measured eval against a
+public labeled corpus, a keyword baseline, and a cost model from logged
+token usage. One workflow, done end to end — not a chatbot over PDFs.
 
-**Either outcome is a win.** Config C routes the cheap model (Haiku) to the
-six standard fields and the expensive model (Opus) to the four high-stakes
-fields, with a regex on governing law. If Haiku matches Opus on the standard
-flags, that is the routing rule validated: the department ships the cheap
-model where the evals show it is reliable. If Haiku falls short, the
-escalation rule caught the gap before a human saw a wrong answer — and the
-eval is what found it. The failure mode this design cannot excuse is a wrong
-answer that self-served; that count is reported per config in the results
-table. Prompts are frozen before the first run and will not be tuned against
-the gold set.
+## 1. The problem, in business language
 
-`[RESULTS PENDING]`
+A 42-page MSA lands in a shared inbox. Two days later a paralegal Ctrl-Fs
+for "assign," "compete," "liability," skims the hits, and fills in
+`Intake Memo v4 FINAL (updated).docx` from the shared drive. Scary findings
+get forwarded with "can you look at section 11." Nothing is logged. Three
+paralegals do it three different ways, and the newest one doesn't know that
+governing law outside Delaware, New York, or California is an automatic
+escalation, because that rule lives in a senior paralegal's head.
 
-## 6. Limitations — when I would NOT use this (drafted before the build)
+This repo is that department, rebuilt so the rules live in versioned files,
+the tools are checkable code, every review ends in a logged decision — and
+the model is trusted for exactly one thing.
 
-- **CUAD's label definitions are not this department's.** The gold labels
-  follow CUAD's annotation guidelines. Where they diverge from everyday usage
-  (exclusivity is the documented case — see `data/README.md`), the playbook
-  adopts CUAD's definition and says so, because silently relabeling gold data
-  is worse than an unfamiliar definition.
+## 2. Approach — and what I chose not to do
+
+The workflow is **third-party paper contract intake**: ten fields, one memo,
+one decision — attorney review or business self-serve. I picked it because
+it recurs, it ends in a decision rather than a chat transcript, and it maps
+1:1 onto [CUAD](https://www.atticusprojectai.org/cuad)'s label schema, so
+the eval numbers are measured against real ground truth instead of
+self-graded.
+
+Decisions that shaped the build:
+
+- **The model makes one call per field, sandwiched between deterministic
+  layers.** Retrieval is cue-pattern regex (`find_clause`), verification is
+  string matching (`verify_span`), routing is a five-rule matrix
+  ([`playbook/escalation-matrix.md`](playbook/escalation-matrix.md), executable
+  form in [`evals/routing.py`](evals/routing.py)). The model is only trusted
+  for the judgment in between, and its quote is checked against the document
+  before it can appear in a memo.
+- **The gold set froze before any model ran.** 12 contracts, 120 judgments,
+  selected by a deterministic rule committed in
+  [`data/gold/build_gold_set.py`](data/gold/build_gold_set.py), spot-checked,
+  then never touched. Prompts froze before the first run and were not tuned
+  against the gold set.
+- **The framing was pre-registered.** The "either outcome is a win"
+  paragraph and the Limitations section were committed before the eval runs
+  (see the git history) so they can't be read as post-hoc.
+- **Not built, on purpose:** redlining, a web UI (Claude Code plus the MCP
+  server is the interface), CLM/e-signature ingestion, RAG over a clause
+  library (the workflow is single-document; deterministic retrieval is
+  better here), fine-tuning, multi-agent orchestration (theater at this
+  scope), non-US law.
+
+## 3. What's built
+
+![Architecture: contract intake triage pipeline](docs/architecture.png)
+
+The repo is the department's shared drive:
+
+| Piece | What it is |
+|---|---|
+| [`playbook/`](playbook/) | The rules that used to live in someone's head: clause standards, the escalation matrix, the governing-law allowlist. The playbook wins over model judgment — stated in [`CLAUDE.md`](CLAUDE.md) and enforced in the skills. |
+| [`mcp/contract_lake/`](mcp/contract_lake/) | Six-tool MCP server. Closed enums carry the domain knowledge; none of the six tools calls a model. [`tools.py`](mcp/contract_lake/tools.py) is imported directly by the evals, so evals exercise the identical code path. |
+| [`.claude/skills/`](.claude/skills/) | Four skills: intake triage (the main workflow), playbook lookup, memo formatting (deliberately dumb), escalation routing (deliberately deterministic). |
+| [`roles/`](roles/) | Three roles with different permissions: paralegal (runs intake), contracts attorney (owns the playbook and rejections), vendor manager (read-only). |
+| [`evals/`](evals/) | 120 frozen scenarios, three configs, keyword baseline, scoring with grounding enforced. |
+| [`data/`](data/) | CUAD provenance, the frozen gold set, and the append-only intake log the old process lacked. |
+
+## 4. Evaluation
+
+Full tables: [`evals/results/results.md`](evals/results/results.md).
+Scoring enforces grounding: a "present" whose quote fails span verification
+counts as a false positive even when the flag was right.
+
+| Config | Precision | Recall | F1 | Halluc. spans | % escalated | Caught / silent errors | Cost / contract |
+|---|---|---|---|---|---|---|---|
+| Ctrl-F baseline ($0.00) | 0.714 | 0.849 | 0.776 | n/a | 0% | 0 / **26** | $0.000 |
+| B — Haiku everywhere | 0.864 | 0.717 | 0.784 | 4 | 32% | 7 / 14 | $0.015 |
+| C — routed (pre-registered ship) | 0.895 | 0.642 | 0.747 | 6 | 58% | 13 / 10 | $0.044 |
+| A — Opus everywhere | 0.911 | 0.774 | **0.837** | 0 | 90% | 14 / **2** | $0.095 |
+
+![Wrong answers that reached production, by config](docs/results.png)
+
+**The pre-registered framing** (committed before the runs): either Haiku
+matches Opus on the standard fields and the routing rule is validated, or
+the escalation rule catches the gap before a human sees a wrong answer.
+What actually happened is more interesting:
+
+- **The headline number is silent errors, not F1.** Keyword search is
+  embarrassingly competitive on raw F1 (0.776 vs Haiku's 0.784) — but it is
+  wrong quietly 26 times out of 120, with no audit trail. The pipeline's
+  job is to never be wrong quietly: silent errors fall 26 → 14 → 10 → 2
+  across the configs. Opus made 16 errors and escalated 14 of them.
+- **The "ship the regex for governing law" hypothesis failed.** The plan
+  predicted regex jurisdiction extraction would match the model. Measured:
+  regex 0.778, model 1.000. The deterministic *allowlist check* stays —
+  it's a file and a string comparison — but extraction should use the
+  model. One falsified pre-registration is reported as exactly that.
+- **Haiku's self-reported confidence is uninformative.** It said "high" on
+  118 of 120 judgments (accuracy at "high": 0.831). Opus is calibrated
+  (0.914 at high vs 0.692 at low). This validates leaning the routing on
+  the two deterministic signals and publishing the calibration table
+  rather than trusting self-report.
+- **`uncapped_liability` is hard for everyone** (0.58–0.67 in every config,
+  baseline included) — CUAD marks it present via carve-outs from the
+  liability cap, which hides in language the cue patterns and the models
+  both under-catch. That's the field a real department would write more
+  playbook for first.
+
+**Cost** ([`costs/cost_model.md`](costs/cost_model.md), from logged usage,
+not estimates): the model cost is noise. The gap between Opus-everywhere
+and the routed config is about **$122/year** at a hypothetical 200
+contracts/month — roughly two hours of a paralegal's loaded time. You'd
+need ~1,200 contracts/month before the monthly gap equals one paralegal
+hour. So routing is not a cost play at this volume, and the measured
+numbers say Opus-everywhere wins the accuracy-and-routing play it was
+supposed to be: fewest silent errors by a factor of five. *(Volume is the
+scaling input, not a finding — per-contract cost is what was measured.)*
+
+**Manual-time anchor:** _[pending: self-timed manual intake on three
+contracts, n=3, non-lawyer — an order-of-magnitude anchor, not a
+benchmark. To be recorded and labeled honestly, including whether it was
+timed before or after reading the model results.]_
+
+## 5. Limitations — when I would NOT use this
+
+- **CUAD's label definitions are not this department's.** Where they
+  diverge from everyday usage (exclusivity is the documented case — see
+  [`data/README.md`](data/README.md)), the playbook adopts CUAD's definition
+  and says so, because silently relabeling gold data is worse.
 - **120 judgments is small.** Rare clause types rest on a handful of
-  examples; per-field numbers on the four high-stakes fields are directional,
-  not precise.
-- **The time baseline is self-timed, n=3, by a non-lawyer.** It is an
-  order-of-magnitude anchor, not a benchmark.
-- **CUAD contracts are public-company SEC filings** — better drafted than the
-  mid-market vendor NDAs real legal ops sees. Real-world recall is likely
-  lower than measured here.
-- **Would not use for:** final decisions on high-stakes clauses (the memo is
-  a recommendation to an attorney by design), non-US law, adversarial
+  examples; per-field numbers are directional, not precise.
+- **CUAD contracts are public-company SEC filings** — better drafted than
+  the mid-market vendor NDAs real legal ops sees. Real-world recall is
+  likely lower than measured.
+- **The time anchor is self-timed, n=3, by a non-lawyer** (see §4).
+- **Would not use for:** final decisions on high-stakes clauses (the memo
+  is a recommendation to an attorney by design), non-US law, adversarial
   counterparties, or as a system of record.
-- **Governing law ships as a regex** if the eval shows the model adds cost
-  without accuracy there — the comparison table decides it, and either way
-  the field is deterministic enough that a model is the wrong tool.
-- **The JSONL intake log is not a compliance-grade record.** It is an
-  append-only file, not an immutable audit system.
+- **The governing-law regex lost** to the model on extraction accuracy
+  (0.778 vs 1.000). It stays in the repo as the measured comparison, not
+  as the shipped path — and the allowlist rule it feeds remains
+  deterministic either way.
+- **The JSONL intake log is not a compliance-grade record.** Append-only
+  file, not an immutable audit system.
+
+## 6. Reproduce it
+
+```bash
+git clone https://github.com/briansaug/legal-ops-department
+cd legal-ops-department
+uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r mcp/contract_lake/requirements.txt
+./data/fetch_cuad.sh                              # downloads CUAD (~106 MB), stages the 12 frozen contracts
+cp .env.example .env                              # add your ANTHROPIC_API_KEY
+.venv/bin/python evals/baseline_keyword.py        # free, instant
+.venv/bin/python evals/run_eval.py --config C     # ~$0.55 total
+.venv/bin/python evals/score.py                   # writes evals/results/results.md
+```
+
+For the interactive department, open the repo in Claude Code: `.mcp.json`
+registers the contract-lake server, the skills load from
+`.claude/skills/`, and `roles/paralegal/CLAUDE.md` is the seat to sit in.
+Run one contract end to end with
+`.venv/bin/python evals/run_eval.py --config C --demo aurasystemsinc` —
+it records a real memo to `data/intake_log.jsonl`.
+
+## 7. Outcome and handoff
+
+Built and measured in one day against a frozen gold set: a triage pipeline
+whose silent-error count drops from 26 (the Ctrl-F status quo) to 2, with
+every judgment span-verified, every review logged, and the escalation rules
+in files an attorney can edit. The eval falsified one of my own design
+choices (the governing-law regex) and surfaced one honest surprise (the
+cheap model's confidence signal is useless); both are reported above rather
+than papered over.
+
+What someone else needs to run it: an Anthropic API key and §6. The gold
+set, prompts, and scoring are frozen and committed, so a re-run is
+comparable to the numbers above. The demo video script (2:00): the messy
+before → a live paralegal session, contract in, memo out, spans visible,
+two fields routed to an attorney, log entry written → the results table
+and why the model cost is noise → what's left behind so someone else can
+run it.
+
+---
+
+*Corpus: CUAD v1 (CC BY 4.0, The Atticus Project) — see
+[`data/README.md`](data/README.md) for attribution and the EDGAR caveat.
+Diagrams built with
+[diagram-design](https://github.com/cathrynlavery/diagram-design).*

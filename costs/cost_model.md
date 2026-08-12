@@ -22,8 +22,8 @@ Per-contract cost is measured; multiply by your own volume.
 on everything (A) and the routed pipeline (C) is about **$122/year**
 at this volume — roughly 2–3 hours of a paralegal's loaded time
 (at an assumed $60/hr, stated here, not measured). You'd need
-~**98 contracts/month** before that gap equals one paralegal hour
-per month. So the routing design is not a cost play. It's an
+~**1,179 contracts/month** before the monthly gap equals one
+paralegal hour. So the routing design is not a cost play. It's an
 accuracy-and-routing play — and the eval numbers say that at this volume
 the expensive model wins even that: config A had the fewest wrong answers
 that self-served (2, vs 10 for the routed config), which is the failure
