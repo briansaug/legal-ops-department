@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "contract-lake": {
+      "command": ".venv/bin/python",
+      "args": ["mcp/contract_lake/server.py"],
+      "env": {}
+    }
+  }
+}
