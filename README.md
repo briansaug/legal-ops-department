@@ -1,8 +1,5 @@
 # legal-ops-department
 
-> 🎥 **Demo video:** _2-minute walkthrough — link pending. (Recording is the
-> one remaining manual step; script is written, see §7.)_
-
 A working model of a legal operations department built around Claude:
 third-party-paper contract intake triage, with a measured eval against a
 public labeled corpus, a keyword baseline, and a cost model from logged
@@ -120,11 +117,6 @@ numbers say Opus-everywhere wins the accuracy-and-routing play it was
 supposed to be: fewest silent errors by a factor of five. *(Volume is the
 scaling input, not a finding — per-contract cost is what was measured.)*
 
-**Manual-time anchor:** _[pending: self-timed manual intake on three
-contracts, n=3, non-lawyer — an order-of-magnitude anchor, not a
-benchmark. To be recorded and labeled honestly, including whether it was
-timed before or after reading the model results.]_
-
 ## 5. Limitations — when I would NOT use this
 
 - **CUAD's label definitions are not this department's.** Where they
@@ -136,7 +128,10 @@ timed before or after reading the model results.]_
 - **CUAD contracts are public-company SEC filings** — better drafted than
   the mid-market vendor NDAs real legal ops sees. Real-world recall is
   likely lower than measured.
-- **The time anchor is self-timed, n=3, by a non-lawyer** (see §4).
+- **No measured manual-time baseline.** The quality comparison (silent
+  errors, F1 vs the Ctrl-F baseline) is measured; the time saved per
+  contract is not. Any hours-saved claim would be an estimate, so none is
+  made here.
 - **Would not use for:** final decisions on high-stakes clauses (the memo
   is a recommendation to an attorney by design), non-US law, adversarial
   counterparties, or as a system of record.
@@ -179,11 +174,7 @@ than papered over.
 
 What someone else needs to run it: an Anthropic API key and §6. The gold
 set, prompts, and scoring are frozen and committed, so a re-run is
-comparable to the numbers above. The demo video script (2:00): the messy
-before → a live paralegal session, contract in, memo out, spans visible,
-two fields routed to an attorney, log entry written → the results table
-and why the model cost is noise → what's left behind so someone else can
-run it.
+comparable to the numbers above.
 
 ---
 
