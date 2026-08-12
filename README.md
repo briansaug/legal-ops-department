@@ -37,7 +37,8 @@ Decisions that shaped the build:
   form in [`evals/routing.py`](evals/routing.py)). The model is only trusted
   for the judgment in between, and its quote is checked against the document
   before it can appear in a memo.
-- **The gold set froze before any model ran.** 12 contracts, 120 judgments,
+- **The gold set — the answer key the pipeline is graded against — froze
+  before any model ran.** 12 contracts, 120 judgments,
   selected by a deterministic rule committed in
   [`data/gold/build_gold_set.py`](data/gold/build_gold_set.py), spot-checked,
   then never touched. Prompts froze before the first run and were not tuned
@@ -72,12 +73,20 @@ Full tables: [`evals/results/results.md`](evals/results/results.md).
 Scoring enforces grounding: a "present" whose quote fails span verification
 counts as a false positive even when the flag was right.
 
-| Config | Precision | Recall | F1 | Halluc. spans | % escalated | Caught / silent errors | Cost / contract |
-|---|---|---|---|---|---|---|---|
-| Ctrl-F baseline ($0.00) | 0.714 | 0.849 | 0.776 | n/a | 0% | 0 / **26** | $0.000 |
-| B — Haiku everywhere | 0.864 | 0.717 | 0.784 | 4 | 32% | 7 / 14 | $0.015 |
-| C — routed (pre-registered ship) | 0.895 | 0.642 | 0.747 | 6 | 58% | 13 / 10 | $0.044 |
-| A — Opus everywhere | 0.911 | 0.774 | **0.837** | 0 | 90% | 14 / **2** | $0.095 |
+| Config | Silent errors | Caught errors | F1 | Precision | Recall | Halluc. spans | % escalated | Cost / contract |
+|---|---|---|---|---|---|---|---|---|
+| Ctrl-F baseline ($0.00) | **26** | 0 | 0.776 | 0.714 | 0.849 | n/a | 0% | $0.000 |
+| B — Haiku everywhere | 14 | 7 | 0.784 | 0.864 | 0.717 | 4 | 32% | $0.015 |
+| C — routed (pre-registered ship) | 10 | 13 | 0.747 | 0.895 | 0.642 | 6 | 58% | $0.044 |
+| A — Opus everywhere | **2** | 14 | **0.837** | 0.911 | 0.774 | 0 | 90% | $0.095 |
+
+Reading the table: a **silent error** is a wrong field judgment that
+reached the memo with no flag — counted over 120 field judgments (ten
+questions on each of 12 contracts, not 120 contracts). A **caught error**
+was also wrong, but the escalation rules routed it to an attorney before
+anyone relied on it. Precision: how often a "present" flag is right.
+Recall: how many truly present clauses get flagged. F1 blends the two;
+1.000 is perfect.
 
 ![Wrong answers that reached production, by config](docs/results.png)
 
@@ -88,19 +97,41 @@ What actually happened is more interesting:
 
 - **The headline number is silent errors, not F1.** Keyword search is
   embarrassingly competitive on raw F1 (0.776 vs Haiku's 0.784) — but it is
-  wrong quietly 26 times out of 120, with no audit trail. The pipeline's
-  job is to never be wrong quietly: silent errors fall 26 → 14 → 10 → 2
-  across the configs. Opus made 16 errors and escalated 14 of them.
+  wrong quietly on 26 of 120 field judgments, with no audit trail. The
+  pipeline's job is to never be wrong quietly: silent errors fall
+  26 → 14 → 10 → 2 across the configs. Opus made 16 errors and escalated
+  14 of them. The price is printed in the same row: Opus escalates 90% of
+  field judgments to get there. Any pipeline can reach zero silent errors
+  by escalating everything — that's why % escalated sits beside the error
+  counts. What this posture buys is *nothing wrong reaches a human
+  silently*, not *fewer things reach a human*.
+- **The self-serve path never fired — the triage half is unproven.** Every
+  one of the 12 contracts, in every config, routed `attorney_review`. The
+  corpus was deliberately selected so each field appears both present and
+  absent across it, so at least one field always escalated. The eval
+  therefore validates the escalation layer and the memo quality; it does
+  not validate the promise that clean contracts skip the attorney. Testing
+  that requires a corpus with genuinely clean paper — this one didn't
+  contain a single self-serve case to catch.
 - **The "ship the regex for governing law" hypothesis failed.** The plan
   predicted regex jurisdiction extraction would match the model. Measured:
   regex 0.778, model 1.000. The deterministic *allowlist check* stays —
   it's a file and a string comparison — but extraction should use the
-  model. One falsified pre-registration is reported as exactly that.
+  model. One falsified pre-registration is reported as exactly that — and
+  the operating rules in [`CLAUDE.md`](CLAUDE.md) were updated after
+  measurement to match, with the edit labeled there, because shipping
+  instructions that contradict your own eval is worse than an honest
+  post-run change.
 - **Haiku's self-reported confidence is uninformative.** It said "high" on
   118 of 120 judgments (accuracy at "high": 0.831). Opus is calibrated
   (0.914 at high vs 0.692 at low). This validates leaning the routing on
   the two deterministic signals and publishing the calibration table
   rather than trusting self-report.
+- **One run per config, small n per field.** B and C make identical Haiku
+  calls on the standard fields yet score 0.75 vs 0.58 on anti-assignment —
+  pure sampling noise at 12 examples per field. Treat third decimals as
+  texture; the gaps the conclusions rest on (26 → 2 silent errors, the
+  calibration split) are far larger than the noise.
 - **`uncapped_liability` is hard for everyone** (0.58–0.67 in every config,
   baseline included) — CUAD marks it present via carve-outs from the
   liability cap, which hides in language the cue patterns and the models
@@ -135,6 +166,17 @@ scaling input, not a finding — per-contract cost is what was measured.)*
 - **Would not use for:** final decisions on high-stakes clauses (the memo
   is a recommendation to an attorney by design), non-US law, adversarial
   counterparties, or as a system of record.
+- **No confidentiality, privilege, or data-handling analysis.** This build
+  processes public SEC filings, so nothing sensitive leaves the machine —
+  but a real deployment sends third-party contracts, some under NDA, to an
+  outside API. Data-handling, privilege, and vendor-security review are
+  prerequisites to processing real paper; none of that work is done here.
+- **The eval measures a leaner pipeline than the skills prescribe.** The
+  intake skill mandates a paged confirmation read before recording a
+  high-stakes field as absent; `run_eval.py` skips that pass, so measured
+  recall is a floor for the documented workflow. Recall in every config is
+  also capped by the same cue patterns the baseline uses — which is why no
+  model config out-recalls Ctrl-F.
 - **The governing-law regex lost** to the model on extraction accuracy
   (0.778 vs 1.000). It stays in the repo as the measured comparison, not
   as the shipped path — and the allowlist rule it feeds remains

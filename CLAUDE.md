@@ -26,7 +26,11 @@ vendor manager) is set by the `roles/<role>/CLAUDE.md` you operate under.
 - Retrieval first: `find_clause` before `get_contract`. Whole contracts do
   not enter context; paged reads are for confirming absence on high-stakes
   fields only.
-- Governing law is not a judgment call: `extract_governing_law` + the
-  allowlist decide it. Do not ask a model what the governing law is.
+- Governing law: extraction may use the model — the eval falsified the
+  regex-only rule (regex 0.778 vs model 1.000, README §4). The
+  *acceptability* decision never uses a model: it is the allowlist in
+  `playbook/governing-law-allowlist.md`, a file and a string comparison.
+  *(This bullet is the one post-measurement edit to the operating rules;
+  it originally forbade model extraction.)*
 - Escalation is computed by the matrix in `playbook/escalation-matrix.md`,
   never improvised. When in doubt, the answer is `attorney_review`.
