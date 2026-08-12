@@ -1,0 +1,9 @@
+# contract text is fetched, not committed — see data/README.md for provenance
+data/contracts/
+data/cuad/
+
+.env
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
