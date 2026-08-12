@@ -20,7 +20,7 @@ Per-contract cost is measured; multiply by your own volume.
 
 **The model cost is noise.** The gap between running the expensive model
 on everything (A) and the routed pipeline (C) is about **$122/year**
-at this volume — roughly 2–3 hours of a paralegal's loaded time
+at this volume — roughly two hours of a paralegal's loaded time
 (at an assumed $60/hr, stated here, not measured). You'd need
 ~**1,179 contracts/month** before the monthly gap equals one
 paralegal hour. So the routing design is not a cost play. It's an

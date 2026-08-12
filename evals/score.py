@@ -189,11 +189,11 @@ def main():
     if "baseline" in by_cfg and "C" in by_cfg:
         b, c = by_cfg["baseline"], by_cfg["C"]
         lines += ["", "## Business framing", "",
-                  f"Keyword F1 {b['f1']:.3f} → routed F1 {c['f1']:.3f}. "
-                  f"Manual intake [SELF-TIMED, n=3 — see README §5] → "
+                  f"Keyword F1 {b['f1']:.3f} → routed F1 {c['f1']:.3f}, at "
                   f"${c['cost_per_contract']:.4f} and {c['wall_clock_s'] / N_CONTRACTS:.0f}s of pipeline "
                   f"per contract, with human review on the {c['pct_escalated']:.0%} of field "
-                  "judgments that escalated."]
+                  "judgments that escalated. No manual-time baseline was measured "
+                  "(see README §5), so no hours-saved claim is made."]
 
     out = RESULTS_DIR / "results.md"
     out.write_text("\n".join(lines) + "\n")

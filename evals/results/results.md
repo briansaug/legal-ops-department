@@ -63,4 +63,4 @@ governing-law answer — the "when NOT to use an LLM" comparison.
 
 ## Business framing
 
-Keyword F1 0.776 → routed F1 0.747. Manual intake [SELF-TIMED, n=3 — see README §5] → $0.0442 and 4s of pipeline per contract, with human review on the 58% of field judgments that escalated.
+Keyword F1 0.776 → routed F1 0.747, at $0.0442 and 4s of pipeline per contract, with human review on the 58% of field judgments that escalated. No manual-time baseline was measured (see README §5), so no hours-saved claim is made.
