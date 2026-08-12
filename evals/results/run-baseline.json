@@ -1,0 +1,2768 @@
+{
+  "config": "baseline",
+  "description": "keyword cue-pattern search (the Ctrl-F process), $0.00",
+  "n_scenarios": 120,
+  "total_wall_clock_s": 0.09,
+  "results": [
+    {
+      "contract_id": "2themartcominc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 4,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": "Israel"
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 7,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 7,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 4,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 7,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 6,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": "South Dakota"
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 6,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": "Germany"
+      },
+      "n_windows": 4,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "anti_assignment",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "change_of_control",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "termination_for_convenience",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "cap_on_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "uncapped_liability",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "non_compete",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 4,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "exclusivity",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "most_favored_nation",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "governing_law",
+      "model": "keyword",
+      "judgment": {
+        "present": true,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "renewal_term",
+      "model": "keyword",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    }
+  ]
+}

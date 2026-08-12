@@ -1,0 +1,251 @@
+{
+  "config": "C",
+  "description": "routed: haiku standard fields, opus high-stakes, regex governing law (shipped)",
+  "n_scenarios": 10,
+  "total_wall_clock_s": 8.6,
+  "results": [
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Except as expressly provided for herein, neither party may assign or otherwise transfer any of its rights or obligations under this Agreement without the other party's prior written approval and any such assignment or transfer shall be void.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 2542,
+        "output_tokens": 79,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 4.17,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 3.87,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 3.88,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1104,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 3.9,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "uncapped_liability",
+      "model": "claude-opus-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "low",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 424,
+        "output_tokens": 43,
+        "cache_creation_input_tokens": 614,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 5.1,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 2: self-reported confidence 'low' != high"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "non_compete",
+      "model": "claude-opus-5",
+      "judgment": {
+        "present": true,
+        "quote": "Any such agreement\n\n\n\n\n\n\n\n  reached between Zanotti and Aura regarding such worldwide sales and marketing shall prohibit competition among Zanotti and Aura with regard  to AETRU Systems and shall be memorized in a separate agreement between the Parties.",
+        "playbook_status": "non_standard",
+        "confidence": "medium",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 801,
+        "output_tokens": 427,
+        "cache_creation_input_tokens": 614,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 8.55,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause non_compete present \u2014 always attorney review",
+        "rule 2: self-reported confidence 'medium' != high",
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "exclusivity",
+      "model": "claude-opus-5",
+      "judgment": {
+        "present": true,
+        "quote": "Aura appoints Zanotti as its exclusive supplier of the Products  within the Territory and Field of Use and Zanotti hereby accepts such appointment.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 7,
+      "usage": {
+        "input_tokens": 4336,
+        "output_tokens": 97,
+        "cache_creation_input_tokens": 614,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 5.76,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause exclusivity present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "most_favored_nation",
+      "model": "claude-opus-5",
+      "judgment": {
+        "present": true,
+        "quote": "3.6 Most Favored Nation. During the term of this Agreement, Zanotti agrees that Aura shall be allowed the full benefit of any and all lower prices  and/or any more favorable terms and/or conditions (\"MFN\" Terms) contained in any other agreement entered into by Zanotti for the sale of any  product substantially similar to the Product in the same or lesser quantities described in this Agreement to third parties.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 835,
+        "output_tokens": 185,
+        "cache_creation_input_tokens": 614,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 7.77,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause most_favored_nation present \u2014 always attorney review",
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "governing_law",
+      "model": "regex",
+      "judgment": {
+        "present": true,
+        "quote": "in accordance with the laws of the State of California",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": null,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.0025,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Unless terminated prior to the natural expiration of the Initial Term, upon the expiry of the Initial Term this Agreement shall automatically renew for successive terms of the same duration, unless either party gives written notice to the other of such party's desire not to renew not less than ninety (90) days prior to the date of the expiration of the Initial Term or any successive term thereafter.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1191,
+        "output_tokens": 112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.39,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    }
+  ]
+}

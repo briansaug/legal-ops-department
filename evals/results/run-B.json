@@ -1,0 +1,2849 @@
+{
+  "config": "B",
+  "description": "claude-haiku-4-5 everywhere (floor)",
+  "n_scenarios": 120,
+  "total_wall_clock_s": 22.7,
+  "results": [
+    {
+      "contract_id": "2themartcominc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "All rights (under any applicable intellectual property right) granted herein are not sublicenseable, transferable or assignable.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1482,
+        "output_tokens": 60,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 2.13,
+      "span_similarity": 0.7432,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 3: span verification failed (similarity=0.7432 < 0.95)",
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.2,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1155,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.85,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 772,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.41,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1122,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.28,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "i-Escrow shall not run banner advertisements on the Co-Branded Site for any of 2TheMart's competitors.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1433,
+        "output_tokens": 54,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.18,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause non_compete present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1906,
+        "output_tokens": 35,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.18,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.11,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement will be governed and construed in accordance with the laws of the State of California without giving effect to conflict of laws principles.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1088,
+        "output_tokens": 60,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.1,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "2themartcominc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement. A party wishing to renew this Agreement shall give the other party notice thereof no less than thirty (30) days before the expiration of the term then in effect. In the event that either party does not give such notice, the term of this Agreement shall be automatically renewed for another one (1) year.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1223,
+        "output_tokens": 132,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.42,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Provider may not assign, delegate or otherwise transfer either this Agreement or any of its rights, interests, or obligations hereunder without the prior written approval of Recipient.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 4,
+      "usage": {
+        "input_tokens": 2627,
+        "output_tokens": 71,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.25,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.07,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 90 (ninety) days' prior written notice to the other party",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1564,
+        "output_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.38,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 772,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.92,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.38,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1490,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.94,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "All writings or works of authorship, including, without limitation, program codes or documentation, produced or authored by Provider in the course of performing services for the Recipient, together with any associated copyrights, are works made for hire and the exclusive property of the Recipient.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1400,
+        "output_tokens": 88,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.17,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause exclusivity present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.03,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "Israel"
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1510,
+        "output_tokens": 105,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.63,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 5: governing law outside allowlist or not found"
+      ]
+    },
+    {
+      "contract_id": "abilityinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.98,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1066,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.17,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1081,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.87,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.93,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 772,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.06,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.02,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 735,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.25,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 815,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.89,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 2.04,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "The Joint Venturers declare that in entering into this Agreement, they have contracted with reference to the laws of the Commonwealth of Pennsylvania, and the construction and interpretation of the terms and provisions of this Agreement shall be interpreted and construed under the laws of the Commonwealth of Pennsylvania",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "Pennsylvania"
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1115,
+        "output_tokens": 89,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.21,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 5: governing law outside allowlist or not found"
+      ]
+    },
+    {
+      "contract_id": "acceleratedtechnologiesholdi",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.11,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Pursuant to Twentieth Century Fox Licensing and Merchandising's assignment of rights and obligations through an assignment dated as of October 1, 2005 by and between Twentieth Century Fox Licensing and Merchandising and Fox Mobile Entertainment Inc., Fox Mobile Entertainment, Inc. is hereby substituted for Twentieth Century Fox Licensing and Merchandising as \"Fox\" under the Agreement.",
+        "playbook_status": "standard",
+        "confidence": "medium",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1642,
+        "output_tokens": 113,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.33,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 2: self-reported confidence 'medium' != high"
+      ]
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.92,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.94,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 772,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.31,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 735,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.97,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Licensee shall have the exclusive right and license to develop and distribute until December 31, 2006. For the avoidance of doubt, Licensee's right and license to develop and distribute the Game in connection with the Property \"ICE AGE 2\" shall become non-exclusive after December 31, 2006.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 2175,
+        "output_tokens": 103,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.42,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause exclusivity present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.02,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 783,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.95,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 5: governing law outside allowlist or not found"
+      ]
+    },
+    {
+      "contract_id": "glumobileinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 35,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.98,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Except as expressly provided for herein, neither party may assign or otherwise transfer any of its rights or obligations under this Agreement without the other party's prior written approval and any such assignment or transfer shall be void.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 2542,
+        "output_tokens": 79,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.21,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.93,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1104,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.87,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.54,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Any such agreement reached between Zanotti and Aura regarding such worldwide sales and marketing shall prohibit competition among Zanotti and Aura with regard to AETRU Systems and shall be memorized in a separate agreement between the Parties.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1030,
+        "output_tokens": 84,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.19,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause non_compete present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Aura appoints Zanotti as its exclusive supplier of the Products within the Territory and Field of Use",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 7,
+      "usage": {
+        "input_tokens": 3517,
+        "output_tokens": 55,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.24,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause exclusivity present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Zanotti agrees that Aura shall be allowed the full benefit of any and all lower prices and/or any more favorable terms and/or conditions (\"MFN\" Terms) contained in any other agreement entered into by Zanotti for the sale of any product substantially similar to the Product in the same or lesser quantities described in this Agreement to third parties.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1070,
+        "output_tokens": 107,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.46,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause most_favored_nation present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement is deemed made and entered into in the State of California and shall be construed, enforced and performed in accordance with the laws of the State of California, without reference, to choice of law.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1114,
+        "output_tokens": 75,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.11,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "aurasystemsinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Unless terminated prior to the natural expiration of the Initial Term, upon the expiry of the Initial Term this Agreement shall automatically renew for successive terms of the same duration, unless either party gives written notice to the other of such party's desire not to renew not less than ninety (90) days prior to the date of the expiration of the Initial Term or any successive term thereafter.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1191,
+        "output_tokens": 112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.35,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement may not be assigned by either party without the express written consent of the other party, which approval will not be unreasonably withheld or delayed, except that either party may (without consent but with notice to the other party) assign this Agreement in its entirety to any successor in the event of a Change of Control of such party.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 1759,
+        "output_tokens": 103,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.11,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "ENERGOUS' acquirer will have the right, for a period of [***] following closing of such acquisition, to terminate this Agreement upon written notice to DIALOG.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 2687,
+        "output_tokens": 63,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.42,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "ENERGOUS may, at any time after the third anniversary of the Effective Date, terminate this Agreement with or without cause upon not less than one hundred and eighty (180) days prior written notice to DIALOG.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1427,
+        "output_tokens": 79,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 2.16,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "IN NO EVENT WILL EITHER PARTY BE LIABLE UNDER THIS AGREEMENT, REGARDLESS OF THE FORM OF ANY CLAIM OR ACTION (WHETHER IN CONTRACT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE), FOR ANY (i) INDIRECT, PUNITIVE, INCIDENTAL, RELIANCE, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, INCLUDING, BUT NOT LIMITED TO, LOSS OF BUSINESS, REVENUES, PROFITS OR GOODWILL, OR (ii) AGGREGATE DAMAGES IN E",
+        "playbook_status": "non_standard",
+        "confidence": "medium",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 2100,
+        "output_tokens": 144,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.37,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 2: self-reported confidence 'medium' != high",
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.08,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "DIALOG agrees that it and its Affiliates will not, without ENERGOUS' written approval, intentionally sell, distribute or work with any third party to develop products incorporating any Uncoupled Power Transfer Technology other than Licensed Products",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 2398,
+        "output_tokens": 81,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.84,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause non_compete present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "ENERGOUS will not, and will not enable any Semiconductor Supplier, to manufacture, have manufactured, offer for sale, sell, import or export the Products or Product Die in commercial volumes, except a Semiconductor Supplier to the Key Customer for use in the Excluded Applications.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 7,
+      "usage": {
+        "input_tokens": 4088,
+        "output_tokens": 83,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.99,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause exclusivity present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "which terms and conditions will be no less favourable to DIALOG than those with respect to the Product to which the Product Update corresponds",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1043,
+        "output_tokens": 59,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.3,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause most_favored_nation present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement will be governed by and construed in accordance with the laws of the State of California, exclusive of conflict of laws principles.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 4,
+      "usage": {
+        "input_tokens": 2062,
+        "output_tokens": 60,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.51,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "energouscorp",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "will automatically renew for one or more annual periods after the Initial Term (each a \"Renewal Term\") unless either party gives notice of non-renewal at least one hundred eighty (180) days prior to the beginning of any Renewal Term",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1486,
+        "output_tokens": 84,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.23,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1175,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.45,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.38,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.07,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "aggregate damages for which ADMA shall be liable to Sanofi Pasteur hereunder, including without limitation costs of Source Plasma yield loss and/or rejected Batches, shall not exceed [***]",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1320,
+        "output_tokens": 81,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.69,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.11,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 735,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.92,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 815,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.07,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.26,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 783,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.0,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 5: governing law outside allowlist or not found"
+      ]
+    },
+    {
+      "contract_id": "adma-biomanufacturing-llc-am",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.01,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1039,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.96,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.35,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "either party may terminate this Agreement at any time upon ____________ (______30________) days written notice to the other party",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1123,
+        "output_tokens": 58,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.26,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 772,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.76,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.97,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 735,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.55,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 815,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.01,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.0,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 783,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.41,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 5: governing law outside allowlist or not found"
+      ]
+    },
+    {
+      "contract_id": "alcostoresinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.03,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Neither party may assign this Agreement or subcontract its obligations under this Agreement to another party without the other party's prior, written consent executed by a duly authorized officer.  The parties agree that if said assignment is to a subsidiary or affiliate organization, said consent to assignment will not be unreasonably withheld.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "South Dakota"
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 1762,
+        "output_tokens": 99,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.49,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.95,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1331,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.17,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "the liability of the Airspan Parties, taken as a whole, for each event or series of connected events arising out of or in connection with this Agreement, any purchase order placed pursuant to this Agreement, or any other collateral contract, or from or in connection with the Equipment or Software or the use thereof, or the inability to use them either separately or in combination with other equipment or software, or from any other cause, whether caused by negligence, breach of contract, strict liability, breach of warranty, on grounds of failure of essential purpose, or otherwise, shall in no circumstance exceed the total amount payable by Distributor to Airspan under this Agreement for the provision of the Equipment or Software which gave rise to the loss or damage or in connection with which the loss or damage was incurred.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1465,
+        "output_tokens": 200,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 3.01,
+      "span_similarity": 0.9183,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 3: span verification failed (similarity=0.9183 < 0.95)",
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Nothing in this Agreement shall exclude or in any way limit Airspan liability for death or personal injury caused by its negligence.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1116,
+        "output_tokens": 58,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.07,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause uncapped_liability present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "During the term of this Agreement, and for a period of three (3) months following the expiration or termination of this Agreement, Distributor agrees that neither it nor any organization or entity controlled or directed by it will, without Airspan's prior, written consent, represent a manufacturer or supplier of products similar in design or performance to or which are of such a nature as to be competitive with any products contained in the Airspan Products",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 7,
+      "usage": {
+        "input_tokens": 3433,
+        "output_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.98,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause non_compete present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Subject to the provisions of this Agreement, Airspan hereby appoints Distributor as an independent, exclusive distributor to assist Airspan in marketing the Airspan Products to customers in the Territory",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 6,
+      "usage": {
+        "input_tokens": 3026,
+        "output_tokens": 74,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.45,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause exclusivity present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "the prices at which Airspan sells to Distributor products supplied under this Agreement shall be no less favorable to the Distributor than those prices at which Airspan sells, at substantially the same time in the United States, similar products and pursuant to similar terms and conditions",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1017,
+        "output_tokens": 95,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.6,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause most_favored_nation present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "South Dakota"
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1420,
+        "output_tokens": 55,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.09,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 5: governing law outside allowlist or not found"
+      ]
+    },
+    {
+      "contract_id": "airspannetworksinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "After the Initial Term, the term of the Agreement may be extended by a further period of five (5) years by mutual written agreement by the parties in the form of an amendment to this Agreement.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1064,
+        "output_tokens": 72,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 3.17,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "neither Nantz Communications nor Nantz shall assign any of their respective rights or delegate any of their respective duties or obligations under this Agreement without the written consent of the Company",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1360,
+        "output_tokens": 70,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.19,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "In the event of the merger or consolidation of the Company with any other entity, Nantz Communications shall have the right to terminate the Agreement by so notifying the Company in writing on or before sixty (60) days after Nantz Communications has received notice of such merger or consolidation if and only if, by virtue of such merger or consolidation Nantz Communications or Nantz would be in default under or violating any provisions of any agreement to which he or it is subject entered into prior to June 1, 1994.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1156,
+        "output_tokens": 146,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 2.07,
+      "span_similarity": 0.8318,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 3: span verification failed (similarity=0.8318 < 0.95)",
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.12,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 772,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.92,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.04,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1032,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.33,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Nantz Communications and Nantz expressly agree that the Endorsement will not be granted to anyone other than the Company for use during the Term in connection with the advertisement and promotion of sportswear apparel, hats and shoes.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1431,
+        "output_tokens": 82,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.3,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause exclusivity present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.13,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement and its formation, operation and performance shall be governed, construed, performed, and enforced in accordance with the laws of the State of California.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "California"
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1146,
+        "output_tokens": 65,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.37,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "ashworthinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.4,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Neither this Agreement, nor any of the rights, interests, or obligations under this Agreement may be assigned or delegated, in whole or in part, by operation of law or otherwise, by any party without the prior written consent of the other party, and any such assignment without such prior written consent shall be null and void; provided, however, that this Agreement may be assigned by a Party in connection with a Change in Control of such party, subject to the specific termination and other rights set forth in the Strategic Alliance Agreement upon such Change in Control; provided, further, that Siemens may assign its rights and obligations under this Agreement to any Distributor that agrees, in writing, to be bound by and comply with the terms and conditions of this Agreement",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 5,
+      "usage": {
+        "input_tokens": 2743,
+        "output_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.78,
+      "span_similarity": 0.954,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "this Agreement may be assigned by a Party in connection with a Change in Control of such party, subject to the specific termination and other rights set forth in the Strategic Alliance Agreement upon such Change in Control",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1115,
+        "output_tokens": 75,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.2,
+      "span_similarity": 0.9174,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 3: span verification failed (similarity=0.9174 < 0.95)",
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 3,
+      "usage": {
+        "input_tokens": 1793,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.05,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1119,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.15,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.02,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1034,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.46,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 6,
+      "usage": {
+        "input_tokens": 3110,
+        "output_tokens": 35,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.01,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.1,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement shall be governed by, and construed in accordance with, the laws of the Federal Republic of Germany excluding the United Nations Convention on Contracts of International Sale of Goods (CISG) and the provisions of German private international law.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "Germany"
+      },
+      "n_windows": 4,
+      "usage": {
+        "input_tokens": 2102,
+        "output_tokens": 83,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.17,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 5: governing law outside allowlist or not found"
+      ]
+    },
+    {
+      "contract_id": "accurayinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 35,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.38,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "anti_assignment",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses hereunder or to assign, alienate or otherwise transfer any of its rights or obligations hereunder.",
+        "playbook_status": "non_standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1105,
+        "output_tokens": 73,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.58,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 4: deviates from playbook standard"
+      ]
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "change_of_control",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses hereunder or to assign, alienate or otherwise transfer any of its rights or obligations hereunder.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1071,
+        "output_tokens": 71,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.3,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "termination_for_convenience",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.5,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "cap_on_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 772,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.01,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "uncapped_liability",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 779,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 0.97,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "non_compete",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "When endorsing a non-competitive product, under no circumstances shall CONSULTANT wear, play, use, hold or in any way be associated with an ADAMS GOLF competitor's Product.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "Kansas"
+      },
+      "n_windows": 4,
+      "usage": {
+        "input_tokens": 2354,
+        "output_tokens": 64,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.89,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause non_compete present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "exclusivity",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "During the term of this Agreement, unless otherwise authorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not: A. give the right to use or permit the use of CONSULTANT'S name, facsimile signature, nickname, voice or likeness to any other manufacturer or seller of PRODUCT; B. sponsor or endorse PRODUCT made or sold by any other manufacturer or seller; or C. serve as a CONSULTANT or advisor of any other manufacturer or seller of PRODUCT.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 2,
+      "usage": {
+        "input_tokens": 1789,
+        "output_tokens": 138,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 3.22,
+      "span_similarity": 0.9523,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 1: high-stakes clause exclusivity present \u2014 always attorney review"
+      ]
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "most_favored_nation",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 27,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 2.36,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "governing_law",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": true,
+        "quote": "This Agreement shall be governed and construed according to the laws of the State of Kansas.",
+        "playbook_status": "standard",
+        "confidence": "high",
+        "jurisdiction": "Kansas"
+      },
+      "n_windows": 1,
+      "usage": {
+        "input_tokens": 1084,
+        "output_tokens": 51,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.26,
+      "span_similarity": 1.0,
+      "escalate": true,
+      "escalation_reasons": [
+        "rule 5: governing law outside allowlist or not found"
+      ]
+    },
+    {
+      "contract_id": "adamsgolfinc",
+      "field": "renewal_term",
+      "model": "claude-haiku-4-5",
+      "judgment": {
+        "present": false,
+        "quote": "",
+        "playbook_status": "not_applicable",
+        "confidence": "high",
+        "jurisdiction": ""
+      },
+      "n_windows": 0,
+      "usage": {
+        "input_tokens": 775,
+        "output_tokens": 34,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "wall_clock_s": 1.36,
+      "span_similarity": 1.0,
+      "escalate": false,
+      "escalation_reasons": []
+    }
+  ]
+}

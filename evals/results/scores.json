@@ -1,0 +1,166 @@
+[
+  {
+    "config": "baseline",
+    "description": "keyword cue-pattern search (the Ctrl-F process), $0.00",
+    "n": 120,
+    "precision": 0.7142857142857143,
+    "recall": 0.8490566037735849,
+    "f1": 0.7758620689655172,
+    "accuracy": 0.7833333333333333,
+    "hallucinated_spans": null,
+    "pct_escalated": 0.0,
+    "caught_errors": 0,
+    "production_errors": 26,
+    "cost_total": 0.0,
+    "cost_per_contract": 0.0,
+    "wall_clock_s": 0.09,
+    "calibration": {
+      "high": {
+        "n": 120,
+        "accuracy": 0.7833333333333333
+      }
+    },
+    "by_field": {
+      "anti_assignment": 0.75,
+      "cap_on_liability": 0.9166666666666666,
+      "change_of_control": 0.5833333333333334,
+      "exclusivity": 0.75,
+      "governing_law": 1.0,
+      "most_favored_nation": 0.8333333333333334,
+      "non_compete": 0.75,
+      "renewal_term": 0.9166666666666666,
+      "termination_for_convenience": 0.6666666666666666,
+      "uncapped_liability": 0.6666666666666666
+    },
+    "jurisdiction_accuracy": 0.7777777777777778,
+    "jurisdiction_n": 9
+  },
+  {
+    "config": "B",
+    "description": "claude-haiku-4-5 everywhere (floor)",
+    "n": 120,
+    "precision": 0.8636363636363636,
+    "recall": 0.7169811320754716,
+    "f1": 0.7835051546391751,
+    "accuracy": 0.825,
+    "hallucinated_spans": 4,
+    "pct_escalated": 0.31666666666666665,
+    "caught_errors": 7,
+    "production_errors": 14,
+    "cost_total": 0.1796650000000001,
+    "cost_per_contract": 0.014972083333333342,
+    "wall_clock_s": 22.7,
+    "calibration": {
+      "high": {
+        "n": 118,
+        "accuracy": 0.8305084745762712
+      },
+      "medium": {
+        "n": 2,
+        "accuracy": 0.5
+      }
+    },
+    "by_field": {
+      "anti_assignment": 0.75,
+      "cap_on_liability": 0.6666666666666666,
+      "change_of_control": 0.6666666666666666,
+      "exclusivity": 0.9166666666666666,
+      "governing_law": 1.0,
+      "most_favored_nation": 0.8333333333333334,
+      "non_compete": 1.0,
+      "renewal_term": 0.9166666666666666,
+      "termination_for_convenience": 0.9166666666666666,
+      "uncapped_liability": 0.5833333333333334
+    },
+    "jurisdiction_accuracy": 1.0,
+    "jurisdiction_n": 9
+  },
+  {
+    "config": "C",
+    "description": "routed: haiku standard fields, opus high-stakes, regex governing law (shipped)",
+    "n": 120,
+    "precision": 0.8947368421052632,
+    "recall": 0.6415094339622641,
+    "f1": 0.7472527472527473,
+    "accuracy": 0.8083333333333333,
+    "hallucinated_spans": 6,
+    "pct_escalated": 0.5833333333333334,
+    "caught_errors": 13,
+    "production_errors": 10,
+    "cost_total": 0.5307459999999999,
+    "cost_per_contract": 0.04422883333333333,
+    "wall_clock_s": 42.5,
+    "calibration": {
+      "high": {
+        "n": 82,
+        "accuracy": 0.7804878048780488
+      },
+      "low": {
+        "n": 13,
+        "accuracy": 0.7692307692307693
+      },
+      "medium": {
+        "n": 25,
+        "accuracy": 0.92
+      }
+    },
+    "by_field": {
+      "anti_assignment": 0.5833333333333334,
+      "cap_on_liability": 0.6666666666666666,
+      "change_of_control": 0.6666666666666666,
+      "exclusivity": 1.0,
+      "governing_law": 0.8333333333333334,
+      "most_favored_nation": 0.9166666666666666,
+      "non_compete": 1.0,
+      "renewal_term": 0.9166666666666666,
+      "termination_for_convenience": 0.9166666666666666,
+      "uncapped_liability": 0.5833333333333334
+    },
+    "jurisdiction_accuracy": 0.7777777777777778,
+    "jurisdiction_n": 9
+  },
+  {
+    "config": "A",
+    "description": "claude-opus-5 everywhere (ceiling)",
+    "n": 120,
+    "precision": 0.9111111111111111,
+    "recall": 0.7735849056603774,
+    "f1": 0.8367346938775511,
+    "accuracy": 0.8666666666666667,
+    "hallucinated_spans": 0,
+    "pct_escalated": 0.9,
+    "caught_errors": 14,
+    "production_errors": 2,
+    "cost_total": 1.1412499999999994,
+    "cost_per_contract": 0.09510416666666661,
+    "wall_clock_s": 73.2,
+    "calibration": {
+      "high": {
+        "n": 35,
+        "accuracy": 0.9142857142857143
+      },
+      "low": {
+        "n": 13,
+        "accuracy": 0.6923076923076923
+      },
+      "medium": {
+        "n": 72,
+        "accuracy": 0.875
+      }
+    },
+    "by_field": {
+      "anti_assignment": 0.9166666666666666,
+      "cap_on_liability": 0.75,
+      "change_of_control": 0.6666666666666666,
+      "exclusivity": 1.0,
+      "governing_law": 1.0,
+      "most_favored_nation": 0.9166666666666666,
+      "non_compete": 1.0,
+      "renewal_term": 0.9166666666666666,
+      "termination_for_convenience": 0.9166666666666666,
+      "uncapped_liability": 0.5833333333333334
+    },
+    "jurisdiction_accuracy": 1.0,
+    "jurisdiction_n": 9
+  }
+]
