@@ -19,6 +19,14 @@ This repo is that department, rebuilt so the rules live in versioned files,
 the tools are checkable code, every review ends in a logged decision — and
 the model is trusted for exactly one thing.
 
+> **The short version:** the manual process is quietly wrong on 26 of 120
+> checks and leaves no record. The rebuilt pipeline gets that down to 2, at
+> about a dime per contract, with every finding quote-verified against the
+> contract text and every review logged. What it does *not* yet prove:
+> hours saved (never measured) and the promise that clean contracts skip
+> the attorney (never exercised on this corpus). Receipts in §4; the full
+> list of what this can't do in §5.
+
 ## 2. Approach — and what I chose not to do
 
 The workflow is **third-party paper contract intake**: ten fields, one memo,
