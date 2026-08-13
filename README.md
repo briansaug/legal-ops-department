@@ -5,6 +5,12 @@ third-party-paper contract intake triage, with a measured eval against a
 public labeled corpus, a keyword baseline, and a cost model from logged
 token usage. One workflow, done end to end — not a chatbot over PDFs.
 
+## Walkthrough
+
+**[Two-minute video walkthrough](https://github.com/briansaug/legal-ops-department/releases/download/demo-video/contract-intake-walkthrough.mp4)**
+— the manual intake process, the rebuilt pipeline running on one contract, the results
+table, and what the evals actually found.
+
 ## 1. The problem, in business language
 
 A 42-page MSA lands in a shared inbox. Two days later a paralegal Ctrl-Fs
